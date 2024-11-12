@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
+  // Use the ref from the custom hook for observing the section in view
   const { ref } = useSectionInView("About");
 
   return (
@@ -17,29 +18,28 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         As a student at the University of British Columbia enrolled in{" "}
         <span className="font-medium">Engineering Physics</span>, I decided to pursue my
-        passion software construction and robotics. I am a member of the Software team on the{" "}
+        passion for software construction and robotics. I am a member of the Software team on the{" "}
         <span className="font-medium">UBC Formula Electric</span> engineering design team.{" "}
         <span className="italic">My favorite part of engineering</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core skills are{" "}
+        feeling of finally figuring out a solution to a problem. My core skills include{" "}
         <span className="font-medium">
           Java, C/C++, Git, and Electronics
         </span>
-        . I am also familiar with SolidWorks and MATLAB. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with SolidWorks and MATLAB. I am always eager to
+        learn new technologies. Currently, I am looking for a{" "}
         <span className="font-medium">full-time position</span> in January for a 4-month engineering co-op.
       </p>
 
       <p>
-        <span className="italic">When I'm not in class</span>, I enjoy skiing at WhistlerBlackcomb, going on hikes
-         with my dog, and mountain biking on the North Shore mountains of Vancouver. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">battery management systems and high voltage charging</span>.
+        <span className="italic">When I'm not in class</span>, I enjoy skiing at Whistler Blackcomb, hiking with my dog, 
+        and mountain biking on the North Shore mountains of Vancouver. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>. At the moment, I am diving into{" "}
+        <span className="font-medium">battery management systems and high-voltage charging</span>.
       </p>
     </motion.section>
   );
