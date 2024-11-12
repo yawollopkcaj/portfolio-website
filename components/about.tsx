@@ -36,7 +36,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not in class</span>, I enjoy skiing at Whistler Blackcomb, hiking with my dog, 
+        <span className="italic">When I&apos;m not in class</span>, I enjoy skiing at Whistler Blackcomb, hiking with my dog, 
         and mountain biking on the North Shore mountains of Vancouver. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. At the moment, I am diving into{" "}
         <span className="font-medium">battery management systems and high-voltage charging</span>.

@@ -36,15 +36,7 @@ export default function Experience() {
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
-              date={
-                <span
-                  style={{
-                    color: theme === "light" ? "#4B5563" : "#D1D5DB", // Date color
-                  }}
-                >
-                  {item.date}
-                </span>
-              }
+              date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
